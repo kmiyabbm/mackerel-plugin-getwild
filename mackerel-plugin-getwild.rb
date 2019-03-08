@@ -3,31 +3,31 @@ if ENV['MACKEREL_AGENT_PLUGIN_META'] == '1'
 
   meta = {
     :graphs => {
-      'TM NETWORK' => {
-        :label   => 'GET WILD',
+      'hello.getwild' => {
+        :label   => 'TM NETWORK',
         :unit    => 'integer',
         :metrics => [
           {
             :name  => 'G',
-            :label => 'hello.getwild.G'
+            :label => 'G'
           }, {
             :name  => 'E',
-            :label => 'hello.getwild.E'
+            :label => 'E'
           }, {
             :name  => 'T',
-            :label => 'hello.getwild.T'
+            :label => 'T'
           }, {
             :name  => 'W',
-            :label => 'hello.getwild.W'
+            :label => 'W'
           }, {
             :name  => 'I',
-            :label => 'hello.getwild.I'
+            :label => 'I'
           }, {
             :name  => 'L',
-            :label => 'hello.getwild.L'
+            :label => 'L'
           }, {
             :name  => 'D',
-            :label => 'hello.getwild.D'
+            :label => 'D'
           }
         ]
       }
